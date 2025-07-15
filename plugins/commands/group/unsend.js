@@ -4,7 +4,7 @@ const config = {
   description: "Unsend bot's message",
   usage: "[reply]",
   cooldown: 3,
-  permissions: [0, 1, 2],
+  permissions: [1],
   credits: "XaviaTeam"
 }
 

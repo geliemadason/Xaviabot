@@ -101,8 +101,4 @@ async function onCall({ message, getLang, data }) {
     }
 }
 
-export default {
-    config,
-    langData,
-    onCall,
-};
+export default { config, onCall };
