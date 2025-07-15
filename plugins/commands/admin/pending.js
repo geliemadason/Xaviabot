@@ -3,7 +3,7 @@ const config = {
     description: "Approve or deny a pending message",
     usage: "",
     cooldown: 3,
-    permissions: [2],
+    permissions: [1],
     credits: "XaviaTeam",
     isAbsolute: true
 }

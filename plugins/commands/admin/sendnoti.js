@@ -3,13 +3,13 @@ const config = {
     aliases: ["sendnotification"],
     description: "Send notification to all groups",
     usage: "[message/reply]",
-    permissions: [2],
+    permissions: [0],
     credits: "XaviaTeam"
 }
 
 const langData = {
     "en_US": {
-        "sendnoti.message": "⌈ NOTIFICATION ⌋\n\n{message}",
+        "sendnoti.message": "⌈ Notification from admin: Raniel⌋\n\n"+" "+" "+" "+"⌈Message⌋\n{message}",
         "sendnoti.success": "Sent notification to {count} groups",
         "sendnoti.fail": "Failed to send notification to {count} groups"
     },

@@ -13,7 +13,8 @@ async function onCall({ message, getLang, data }) {
     const prefixTriggers = [
         "prefix",
         "prefix?",
-        "Prefix"
+        "Prefix",
+        "Prefix?"
 
         ];
 
