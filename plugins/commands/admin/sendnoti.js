@@ -9,7 +9,7 @@ const config = {
 
 const langData = {
     "en_US": {
-        "sendnoti.message": "⌈ Notification from admin: Raniel⌋\n\n"+" "+" "+" "+"⌈Message⌋\n{message}",
+        "sendnoti.message": "⌈ Notif from admin: Raniel⌋\n\n⌈Message⌋\n{message}",
         "sendnoti.success": "Sent notification to {count} groups",
         "sendnoti.fail": "Failed to send notification to {count} groups"
     },

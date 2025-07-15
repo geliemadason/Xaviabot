@@ -30,7 +30,7 @@ export default async function ({ event }) {
     if (getMessage.attachments.length > 0) {
         if (getMessage.body) msg = getLang("plugins.resend.unsendMessageAndAttach", {
             author: username,
-            message: `Content `+getMessage.body,
+            message: `Content:\n `+getMessage.body,
             attachmentsCount: getMessage.attachments.length
         })
         else msg = getLang("plugins.resend.unsendNoMessageButAttach", {
@@ -57,7 +57,7 @@ export default async function ({ event }) {
     } else if (getMessage.body) {
         messageObject.body = getLang("plugins.resend.unsendMessage", {
             author: username,
-            message: `Content  `+getMessage.body
+            message: `Content:\n  `+getMessage.body
         });
     }
     if (Object.keys(messageObject).length > 0) {
