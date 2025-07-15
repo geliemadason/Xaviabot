@@ -127,6 +127,5 @@ async function onCall({ message, args, getLang, userPermissions, prefix }) {
 
 export default {
     config,
-    langData,
     onCall
-}
+};
