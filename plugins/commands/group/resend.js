@@ -14,20 +14,6 @@ const langData = {
         "resend.alreadyOn": "Resend is already turned on.",
         "resend.alreadyOff": "Resend is already turned off.",
         "error": "An error occurred, please try again later."
-    },
-    "vi_VN": {
-        "resend.on": "Resend đã được bật.",
-        "resend.off": "Resend đã được tắt.",
-        "resend.alreadyOn": "Resend đã được bật trước đó.",
-        "resend.alreadyOff": "Resend đã được tắt trước đó.",
-        "error": "Đã xảy ra lỗi, vui lòng thử lại sau."
-    },
-    "ar_SY": {
-        "resend.on": "تم تشغيل إعادة الإرسال.",
-        "resend.off": "تم إيقاف إعادة الإرسال.",
-        "resend.alreadyOn": "إعادة الإرسال قيد التشغيل بالفعل.",
-        "resend.alreadyOff": "تم إيقاف إعادة الإرسال بالفعل.",
-        "error": "لقد حدث خطأ، رجاء أعد المحاولة لاحقا."
     }
 }
 
