@@ -36,7 +36,7 @@ async function changeConfig(threadID, option) {
 }
 
 async function onCall({ message, args, getLang }) {
-    const { threadID, reply } = message;
+    const { threadID, reply } = `Content: ${message}`;
     let option = args[0]?.toLowerCase();
     try {
         option = option == "on" ? true : option == "off" ? false : null;
